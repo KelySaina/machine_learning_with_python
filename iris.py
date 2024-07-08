@@ -23,8 +23,8 @@ print(df.head())
 print(df.describe())
 
 # Check the distribution of the target variable
-sns.countplot(x='species', data=df)
-plt.show()
+# sns.countplot(x='species', data=df)
+# plt.show()
 
 # Pairplot to visualize relationships between features
 sns.pairplot(df, hue='species')
